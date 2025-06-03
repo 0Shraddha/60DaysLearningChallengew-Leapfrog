@@ -1,0 +1,40 @@
+<!-- A simple todo list-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3 : To Do List</title>
+</head>
+
+<style>
+   
+    input{
+        border: 1px solid #ccc;
+        border-radius: 12px;
+        padding: 5px 10px;
+    }
+
+    button{
+        background-color: tomato;
+        color: #fff;
+        font-weight: 600;
+        border-radius: 8px;
+        padding: 5px 10px;    
+        border: 1px solid tomato;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+
+    <h2>Async To-Do List</h2>
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+
+  <script src="/Day3.js"></script>
+    
+</body>
+</html>
