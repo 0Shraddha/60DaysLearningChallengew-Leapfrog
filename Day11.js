@@ -18,7 +18,7 @@ class Animal{
     return name;
 }
 }
-console.log("Dog  : " + Dog.name)
+console.log("Dog  : " + Dog.name);
 
 
 //Example of nested functions
